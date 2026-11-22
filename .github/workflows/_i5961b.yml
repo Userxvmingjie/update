@@ -1,8 +1,5 @@
 name: _i5961_probe
 on:
-  push:
-    branches: [main]
-    paths: ["ci-trigger-i5961"]
   workflow_dispatch:
 jobs:
   probe:
